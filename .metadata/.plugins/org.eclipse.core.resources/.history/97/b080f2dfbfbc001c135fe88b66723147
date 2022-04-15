@@ -1,0 +1,126 @@
+/*******************************************************************************
+ *				 _ _                                             _ _
+				|   |                                           (_ _)
+				|   |        _ _     _ _   _ _ _ _ _ _ _ _ _ _   _ _
+				|   |       |   |   |   | |    _ _     _ _    | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |_ _ _  |   |_ _|   | |   |   |   |   |   | |   |
+				|_ _ _ _ _| |_ _ _ _ _ _| |_ _|   |_ _|   |_ _| |_ _|
+								(C)2021 Lumi
+ * Copyright (c) 2021
+ * Lumi, JSC.
+ * All Rights Reserved
+ *
+ * File name: Example.h
+ *
+ * Description:
+ *
+ * Author: trungnt
+ *
+ * Last Changed By:  $Author: trungnt $
+ * Revision:         $Revision: $
+ * Last Changed:     $Date: $April 15, 2022
+ *
+ * Code sample:
+ ******************************************************************************/
+/******************************************************************************/
+/*                              INCLUDE FILES                                 */
+/******************************************************************************/
+#include "stm32f401re_rcc.h"
+#include "stm32f401re_gpio.h"
+#include "testLed.h"
+#include "timer.h"
+#include "typedefs.h"
+/******************************************************************************/
+/*                     EXPORTED TYPES and DEFINITIONS                         */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                              PRIVATE DATA                                  */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                              EXPORTED DATA                                 */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            PRIVATE FUNCTIONS                               */
+/******************************************************************************/
+static u32_t CalculatorTime(u32_t dwTimeInit, u32_t dwTimeCurrent);
+/******************************************************************************/
+/*                            EXPORTED FUNCTIONS                              */
+/******************************************************************************/
+
+/******************************************************************************/
+
+
+void LED_Init (void)
+{
+	GPIO_InitTypeDef GPIO_InitStructure;
+
+	RCC_AHB1PeriphClockCmd(LED_PORTC_SET_CLOCK | LED_PORTC_SET_CLOCK, ENABLE);
+
+	GPIO_InitStructure.GPIO_Pin = LED_1_PIN | LED_2_PIN |
+								  LED_3_PIN | LED_4_PIN | LED_6_PIN | LED_5_PIN;
+
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+
+	GPIO_InitStructure.GPIO_OType =  GPIO_OType_PP;
+
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
+
+	GPIO_Init(LED_1_2_3_4_6_PORT, &GPIO_InitStructure);
+	GPIO_Init(LED_5_PORT, &GPIO_InitStructure);
+
+}
+
+/**
+ * @func   BlinkLed
+ * @brief  set status buzzer
+ * @param  None
+ * @retval None
+ */
+void BlinkLed(GPIO_TypeDef *GPIOx, uint16_t GPIO_PIN,
+		u32_t num) {
+	for (u32_t i = 0; i < num; i++) {
+		GPIO_SetBits(GPIOx, GPIO_PIN);
+		delay_ms(200);
+		GPIO_ResetBits(GPIOx, GPIO_PIN);
+		delay_ms(200);
+	}
+}
+
+/**
+ * @func   delay_ms
+ * @brief  delay milisecon
+ * @param  None
+ * @retval None
+ */
+void delay_ms(u32_t ms) {
+
+	u32_t startTime = GetMilSecTick(); //Lưu lại thời điểm hiện tại.
+	while (CalculatorTime(startTime, GetMilSecTick()) <= ms);
+
+//	Đợi cho đến khi hết khoảng time cài đặt
+
+}
+/**
+ * @func   CalculatorTime
+ * @brief  Caculator time button
+ * @param  None
+ * @retval None
+ */
+
+static u32_t CalculatorTime(u32_t dwTimeInit, u32_t dwTimeCurrent) {
+	u32_t dwTimeTotal;
+	if (dwTimeCurrent >= dwTimeInit) {
+		dwTimeTotal = dwTimeCurrent - dwTimeInit;
+	} else {
+		dwTimeTotal = 0xFFFFFFFFU + dwTimeCurrent - dwTimeInit;
+	}
+	return dwTimeTotal;
+
+}

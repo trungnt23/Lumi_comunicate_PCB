@@ -1,0 +1,87 @@
+/*******************************************************************************
+ *				 _ _                                             _ _
+				|   |                                           (_ _)
+				|   |        _ _     _ _   _ _ _ _ _ _ _ _ _ _   _ _
+				|   |       |   |   |   | |    _ _     _ _    | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |_ _ _  |   |_ _|   | |   |   |   |   |   | |   |
+				|_ _ _ _ _| |_ _ _ _ _ _| |_ _|   |_ _|   |_ _| |_ _|
+								(C)2021 Lumi
+ * Copyright (c) 2021
+ * Lumi, JSC.
+ * All Rights Reserved
+ *
+ * File name: Example.h
+ *
+ * Description:
+ *
+ * Author: trungnt
+ *
+ * Last Changed By:  $Author: trungnt $
+ * Revision:         $Revision: $
+ * Last Changed:     $Date: $April 15, 2022
+ *
+ * Code sample:
+ ******************************************************************************/
+/******************************************************************************/
+/*                              INCLUDE FILES                                 */
+/******************************************************************************/
+#include "stm32f401re_rcc.h"
+#include "stm32f401re_gpio.h"
+#include "testLed.h"
+/******************************************************************************/
+/*                     EXPORTED TYPES and DEFINITIONS                         */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                              PRIVATE DATA                                  */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                              EXPORTED DATA                                 */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            PRIVATE FUNCTIONS                               */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            EXPORTED FUNCTIONS                              */
+/******************************************************************************/
+
+/******************************************************************************/
+
+void LED_Init (void)
+{
+	GPIO_InitTypeDef GPIO_InitStructure;
+
+	RCC_AHB1PeriphClockCmd(LEDControl_SetClock, ENABLE);
+
+	GPIO_InitStructure.GPIO_Pin = LED_CAP | LED_SAY_TRUOC |
+								  LED_PHUN | LED_SAY_SAU |
+								  LED_TRUOC_CAT | LED_CAT;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
+
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+
+	GPIO_InitStructure.GPIO_OType =  GPIO_OType_PP;
+
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
+
+	GPIO_Init(LED_GPIO_PORT, &GPIO_InitStructure);
+
+}
+
+void LedControl_SetStatus(GPIO_TypeDef *GPIOx, uint16_t GPIO_PIN,
+		uint8_t Status) {
+	// SET bit in BSRR Registers
+
+	if (Status == GPIO_PIN_SET) {
+		GPIOx->BSRRL = GPIO_PIN;
+	}
+	if (Status == GPIO_PIN_RESET) {
+		GPIOx->BSRRH = GPIO_PIN;
+	}
+}
+

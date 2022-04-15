@@ -1,0 +1,97 @@
+/*******************************************************************************
+ *				 _ _                                             _ _
+				|   |                                           (_ _)
+				|   |        _ _     _ _   _ _ _ _ _ _ _ _ _ _   _ _
+				|   |       |   |   |   | |    _ _     _ _    | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |_ _ _  |   |_ _|   | |   |   |   |   |   | |   |
+				|_ _ _ _ _| |_ _ _ _ _ _| |_ _|   |_ _|   |_ _| |_ _|
+								(C)2021 Lumi
+ * Copyright (c) 2021
+ * Lumi, JSC.
+ * All Rights Reserved
+ *
+ * File name: main.c
+ *
+ *
+ * Author: trungNT
+ *
+ * Last Changed By:  $Author: trungnt $
+ * Revision:         $Revision: $
+ * Last Changed:     $Date: $April 15, 2022
+ *
+ ******************************************************************************/
+/******************************************************************************/
+/*                              INCLUDE FILES                                 */
+/******************************************************************************/
+#include <stdint.h>
+#include <typedefs.h>
+#include <stm32f401re_gpio.h>
+#include <stm32f401re_rcc.h>
+/******************************************************************************/
+/*                     EXPORTED TYPES and DEFINITIONS                         */
+/******************************************************************************/
+#define	LOW									0
+#define BTN_PRESS							LOW
+// Define Logic GPIO_PIN
+
+#define GPIO_PIN_SET						1
+#define GPIO_PIN_RESET						0
+#define GPIO_PIN_LOW						0
+#define GPIO_PIN_HIGH						1
+
+// Define GPIO PIN
+
+#define LED_GPIO_PORT						GPIOA
+#define LED_CAP								GPIO_Pin_8
+#define LED_SAY_TRUOC						GPIO_Pin_9
+#define	LED_PHUN							GPIO_Pin_10
+#define	LED_SAY_SAU							GPIO_Pin_11
+#define LED_TRUOC_CAT						GPIO_Pin_12
+#define LED_CAT								GPIO_Pin_13
+
+#define LED_PIN5							5
+#define LEDControl_SetClock					RCC_AHB1Periph_GPIOA
+
+#define BUTTON_GPIO_PORT					GPIOC
+#define BUTTON_GPIO_PIN						GPIO_Pin_13
+#define BUTTON_PIN13						13
+#define BUTTONControl_SetClock				RCC_AHB1Periph_GPIOC
+
+/******************************************************************************/
+/*                              PRIVATE DATA                                  */
+/******************************************************************************/
+static void LED_Init (void);
+/******************************************************************************/
+/*                              EXPORTED DATA                                 */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            PRIVATE FUNCTIONS                               */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            EXPORTED FUNCTIONS                              */
+/******************************************************************************/
+
+/******************************************************************************/
+
+
+
+int main(void)
+{
+
+    /* Loop forever */
+	while(1)
+	{
+
+	}
+}
+
+static void LED_Init (void)
+{
+	GPIO_InitTypeDef GPIO_InitStructure;
+
+}
+

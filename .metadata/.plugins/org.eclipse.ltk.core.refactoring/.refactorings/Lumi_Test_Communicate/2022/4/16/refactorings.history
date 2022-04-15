@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Lumi_Test_Communicate/SDK_1.0.3_NUCLEO-F401RE/shared/Middle/led/testled.h&apos; to &apos;testLed.h&apos;" description="Rename resource &apos;testled.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="SDK_1.0.3_NUCLEO-F401RE/shared/Middle/led/testled.h" name="testLed.h" stamp="1650006848184" updateReferences="true"/>
+</session>

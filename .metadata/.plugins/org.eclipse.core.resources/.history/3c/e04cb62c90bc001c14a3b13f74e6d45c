@@ -1,0 +1,82 @@
+/*******************************************************************************
+ *				 _ _                                             _ _
+				|   |                                           (_ _)
+				|   |        _ _     _ _   _ _ _ _ _ _ _ _ _ _   _ _
+				|   |       |   |   |   | |    _ _     _ _    | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |_ _ _  |   |_ _|   | |   |   |   |   |   | |   |
+				|_ _ _ _ _| |_ _ _ _ _ _| |_ _|   |_ _|   |_ _| |_ _|
+								(C)2021 Lumi
+ * Copyright (c) 2021
+ * Lumi, JSC.
+ * All Rights Reserved
+ *
+ * File name: Example.h
+ *
+ * Description:
+ *
+ * Author: trungnt
+ *
+ * Last Changed By:  $Author: trungnt $
+ * Revision:         $Revision: $
+ * Last Changed:     $Date: $April 15, 2022
+ *
+ * Code sample:
+ ******************************************************************************/
+/******************************************************************************/
+/*                              INCLUDE FILES                                 */
+/******************************************************************************/
+#include "stm32f401re_rcc.h"
+#include "stm32f401re_gpio.h"
+#include "testLed.h"
+/******************************************************************************/
+/*                     EXPORTED TYPES and DEFINITIONS                         */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                              PRIVATE DATA                                  */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                              EXPORTED DATA                                 */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            PRIVATE FUNCTIONS                               */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            EXPORTED FUNCTIONS                              */
+/******************************************************************************/
+
+/******************************************************************************/
+
+void Button_init(void) {
+	// Khai bao bien thuoc kieu struct
+	GPIO_InitTypeDef GPIO_InitStructure;
+
+	// Cap xung clock hoat dong cho port A
+
+	RCC_AHB1PeriphClockCmd(BUTTONControl_SetClock, ENABLE);
+
+	// chon chan su dung chuc nang dieu khien nut nhan
+
+	GPIO_InitStructure.GPIO_Pin =  ;
+
+	//Chon chan dieu khien nut che do output
+
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
+
+	// Toc do xu ly
+
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+
+	// trang thai ban dau tren chan la Pull up
+
+	GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
+
+	// khoi tao cac gia tri
+
+	GPIO_Init(BUTTON_GPIO_PORT, &GPIO_InitStructure);
+}

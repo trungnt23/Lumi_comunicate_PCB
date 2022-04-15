@@ -1,0 +1,96 @@
+/*******************************************************************************
+ *				 _ _                                             _ _
+				|   |                                           (_ _)
+				|   |        _ _     _ _   _ _ _ _ _ _ _ _ _ _   _ _
+				|   |       |   |   |   | |    _ _     _ _    | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |       |   |   |   | |   |   |   |   |   | |   |
+				|   |_ _ _  |   |_ _|   | |   |   |   |   |   | |   |
+				|_ _ _ _ _| |_ _ _ _ _ _| |_ _|   |_ _|   |_ _| |_ _|
+								(C)2021 Lumi
+ * Copyright (c) 2021
+ * Lumi, JSC.
+ * All Rights Reserved
+ *
+ * File name: main.c
+ *
+ *
+ * Author: trungNT
+ *
+ * Last Changed By:  $Author: trungnt $
+ * Revision:         $Revision: $
+ * Last Changed:     $Date: $April 15, 2022
+ *
+ ******************************************************************************/
+/******************************************************************************/
+/*                              INCLUDE FILES                                 */
+/******************************************************************************/
+#include <stdint.h>
+#include <typedefs.h>
+#include <stm32f401re_exti.h>
+#include <stm32f401re_gpio.h>
+#include <stm32f401re_rcc.h>
+#include <testbutton.h>
+#include <testLed.h>
+/******************************************************************************/
+/*                     EXPORTED TYPES and DEFINITIONS                         */
+/******************************************************************************/
+
+
+/******************************************************************************/
+/*                              PRIVATE DATA                                  */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                              EXPORTED DATA                                 */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            PRIVATE FUNCTIONS                               */
+/******************************************************************************/
+static void AppCommonInit(void);
+/******************************************************************************/
+/*                            EXPORTED FUNCTIONS                              */
+/******************************************************************************/
+
+/******************************************************************************/
+
+
+
+int main(void)
+{
+	AppCommonInit();
+
+    /* Loop forever */
+	while(1)
+	{
+
+	}
+}
+
+static void AppCommonInit(void)
+{
+	LED_Init();
+	buttonStart();
+	buttonTest();
+	buttonThayKhayIn();
+	buttonThayKhayOut();
+}
+
+
+/**
+ * @func   EXTI4_IRQHandler
+ * @brief  Interrupt line 4
+ * @param  None
+ * @retval None
+ */
+void EXTI4_IRQHandler(void) {
+
+	if (EXTI_GetFlagStatus(EXTI_Line4) == SET) {
+		if (GPIO_ReadInputDataBit(BUTTON_GPIO_PORT,BUTTON_START)== GPIO_PIN_RESET) {
+			BlinkLed(LED_GPIO_PORT, LED_CAP, 4);
+	}
+	//xóa cờ ngắt sau khi thực hiện xong chương trình ngắt.
+	EXTI_ClearITPendingBit(EXTI_Line4);
+}
+}

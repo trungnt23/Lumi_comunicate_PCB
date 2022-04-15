@@ -1,0 +1,740 @@
+2022-04-15 11:50:03,801 [INFO] Activator:177 - 
+
+
+2022-04-15 11:50:03,802 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-15 11:50:17,323 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-04-15 11:50:17,671 [INFO] ApplicationProperties:181 - Using Application install path: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111
+2022-04-15 11:50:17,682 [INFO] DbMcusXml:74 - Set database path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/mcu/
+2022-04-15 11:50:17,686 [INFO] DbBoardsPdsc:56 - Set plugin database path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/boardmanager/
+2022-04-15 11:50:17,686 [INFO] DbMcus:258 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:17,686 [INFO] DbBoards:264 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:17,688 [INFO] DbExamples:333 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:18,480 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-S2915A1.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2915A1.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,482 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-S2868A2.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2868A2.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,484 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-S2868A1.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-S2868A1.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,485 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-NFC04A1.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-NFC04A1.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,487 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-IDB05A2.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-IDB05A2.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,488 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-EEPRMA2.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-EEPRMA2.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,489 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-EEPRMA1.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-EEPRMA1.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,490 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/X-NUCLEO-6283A1.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\X-NUCLEO-6283A1.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,491 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/VD6283TX.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\VD6283TX.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,492 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/ST25DV04K.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\ST25DV04K.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,493 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/S2-LP.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\S2-LP.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,494 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M95M04-DR.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95M04-DR.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,494 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M95M01-DF.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95M01-DF.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,494 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M95256-DF.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95256-DF.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,494 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M95040-R.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M95040-R.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,494 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M24M01-DF.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24M01-DF.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,495 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M24C02-F.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24C02-F.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,495 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/M24256-DF.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\M24256-DF.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,495 [ERROR] ApiFinderProperties:213 - Failed to read file additional_hw_images/BlueNRG-M0.jpg: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\additional_hw_images\BlueNRG-M0.jpg (The system cannot find the path specified)
+2022-04-15 11:50:18,615 [WARN] ApiFinderProperties:104 - C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\mcuFinder.mfd doesn't exist
+2022-04-15 11:50:18,616 [INFO] DbMcusAds:119 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,617 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,619 [INFO] DbMcusJson:64 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,620 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,621 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,628 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-04-15 11:50:18,632 [INFO] DbExamplesSqlite:767 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,718 [INFO] RulesReader:57 - Compatibility file has been processed (242 Rules)
+2022-04-15 11:50:18,794 [INFO] DbMcusXml:74 - Set database path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/mcu/
+2022-04-15 11:50:18,794 [INFO] DbBoardsPdsc:56 - Set plugin database path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/boardmanager/
+2022-04-15 11:50:18,794 [INFO] DbMcus:258 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:18,794 [INFO] DbBoards:264 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:18,794 [INFO] DbExamples:333 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:18,794 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,794 [INFO] DbMcusAds:119 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,794 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,794 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,794 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,794 [INFO] DbMcusJson:64 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,794 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,794 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,794 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,794 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,794 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,794 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,794 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-04-15 11:50:18,794 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,794 [INFO] DbExamplesSqlite:767 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,853 [INFO] MainPanel:214 - HeapMemory: 268435456
+2022-04-15 11:50:18,932 [INFO] DbMcusXml:74 - Set database path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/mcu/
+2022-04-15 11:50:18,932 [INFO] DbBoardsPdsc:56 - Set plugin database path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/boardmanager/
+2022-04-15 11:50:18,933 [INFO] DbMcus:258 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:18,933 [INFO] DbBoards:264 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:18,933 [INFO] DbExamples:333 - Set plugin images path to: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/
+2022-04-15 11:50:18,933 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,933 [INFO] DbMcusAds:119 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,933 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,933 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,933 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,933 [INFO] DbMcusJson:64 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,933 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,933 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,934 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,934 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,934 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,934 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,934 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-04-15 11:50:18,934 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder/ => C:\Users\TrungNT\.stmcufinder\plugins\mcufinder
+2022-04-15 11:50:18,934 [INFO] DbExamplesSqlite:767 - Set database path to: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder//mcu/
+2022-04-15 11:50:18,957 [INFO] ApplicationProperties:181 - Using Application install path: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111
+2022-04-15 11:50:18,958 [INFO] PluginManage:188 - Search for loadable plugins [exclusion list=, ]
+2022-04-15 11:50:18,959 [INFO] PluginManage:302 - Check plugin analytics
+2022-04-15 11:50:19,077 [INFO] AnalyticsPlugin:257 - Accepted Software Licenses: 
+2022-04-15 11:50:19,077 [INFO] AnalyticsPlugin:259 - Accepted CMSIS Pack Licenses: 
+2022-04-15 11:50:19,078 [INFO] AnalyticsPlugin:261 - Accepted Firmware Licenses: 
+2022-04-15 11:50:19,078 [INFO] PluginManage:352 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-04-15 11:50:19,078 [INFO] PluginManage:302 - Check plugin clock
+2022-04-15 11:50:19,098 [INFO] PluginManage:352 - Loaded plugin clock (category:base,tabindex:2)
+2022-04-15 11:50:19,098 [INFO] PluginManage:302 - Check plugin ddr
+2022-04-15 11:50:19,100 [INFO] PluginManage:352 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-04-15 11:50:19,100 [INFO] PluginManage:302 - Check plugin filemanager
+2022-04-15 11:50:19,225 [INFO] PluginManage:352 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-04-15 11:50:19,225 [INFO] PluginManage:302 - Check plugin ipmanager
+2022-04-15 11:50:19,232 [INFO] PluginManage:352 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-04-15 11:50:19,233 [INFO] PluginManage:302 - Check plugin pinoutandconfiguration
+2022-04-15 11:50:19,257 [INFO] PluginManage:352 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-04-15 11:50:19,257 [INFO] PluginManage:302 - Check plugin pinoutconfig
+2022-04-15 11:50:19,307 [INFO] PluginManage:352 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-04-15 11:50:19,307 [INFO] PluginManage:302 - Check plugin power
+2022-04-15 11:50:19,332 [INFO] PluginManage:352 - Loaded plugin power (category:power,tabindex:4)
+2022-04-15 11:50:19,332 [INFO] PluginManage:302 - Check plugin projectmanager
+2022-04-15 11:50:19,352 [INFO] PluginManage:352 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-04-15 11:50:19,352 [INFO] PluginManage:302 - Check plugin thirdparty
+2022-04-15 11:50:19,610 [WARN] IntegrityCheckThread:78 - waiting for thirdparty lock release [integrity check]
+2022-04-15 11:50:19,612 [INFO] IntegrityCheckThread:80 - entering critical section [integrity check]
+2022-04-15 11:50:19,610 [INFO] PluginManage:352 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-04-15 11:50:19,612 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [1/15]
+2022-04-15 11:50:19,612 [INFO] PluginManage:302 - Check plugin tools
+2022-04-15 11:50:19,649 [INFO] PluginManage:352 - Loaded plugin tools (category:base,tabindex:7)
+2022-04-15 11:50:19,650 [INFO] PluginManage:302 - Check plugin tutovideos
+2022-04-15 11:50:19,835 [INFO] PluginManage:352 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-04-15 11:50:19,835 [INFO] PluginManage:302 - Check plugin updater
+2022-04-15 11:50:19,850 [INFO] PluginManage:352 - Loaded plugin updater (category:base,tabindex:12)
+2022-04-15 11:50:19,851 [INFO] PluginManage:275 - PluginManage : Loaded plugins [13]
+2022-04-15 11:50:20,023 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-04-15 11:50:20,105 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,105 [INFO] PluginManager:213 - loadIPPluginJar : add adc
+2022-04-15 11:50:20,139 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,140 [INFO] PluginManager:213 - loadIPPluginJar : add aes
+2022-04-15 11:50:20,171 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,171 [INFO] PluginManager:213 - loadIPPluginJar : add can
+2022-04-15 11:50:20,191 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,192 [INFO] PluginManager:213 - loadIPPluginJar : add comp
+2022-04-15 11:50:20,214 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,215 [INFO] PluginManager:213 - loadIPPluginJar : add cryp
+2022-04-15 11:50:20,239 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,239 [INFO] PluginManager:213 - loadIPPluginJar : add dfsdm
+2022-04-15 11:50:20,250 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,250 [INFO] PluginManager:213 - loadIPPluginJar : add dma
+2022-04-15 11:50:20,281 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,282 [INFO] PluginManager:213 - loadIPPluginJar : add dma3
+2022-04-15 11:50:20,300 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,301 [INFO] PluginManager:213 - loadIPPluginJar : add fatfs
+2022-04-15 11:50:20,338 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,338 [INFO] PluginManager:213 - loadIPPluginJar : add fmc
+2022-04-15 11:50:20,351 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,351 [INFO] PluginManager:213 - loadIPPluginJar : add freertos
+2022-04-15 11:50:20,372 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,372 [INFO] PluginManager:213 - loadIPPluginJar : add genericplugin
+2022-04-15 11:50:20,434 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,434 [INFO] PluginManager:213 - loadIPPluginJar : add gfxmmu
+2022-04-15 11:50:20,525 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,525 [INFO] PluginManager:213 - loadIPPluginJar : add gic
+2022-04-15 11:50:20,536 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,537 [INFO] PluginManager:213 - loadIPPluginJar : add gpio
+2022-04-15 11:50:20,588 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,588 [INFO] PluginManager:213 - loadIPPluginJar : add gtzc
+2022-04-15 11:50:20,613 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,613 [INFO] PluginManager:213 - loadIPPluginJar : add hash
+2022-04-15 11:50:20,652 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,652 [INFO] PluginManager:213 - loadIPPluginJar : add i2c
+2022-04-15 11:50:20,683 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,683 [INFO] PluginManager:213 - loadIPPluginJar : add i2s
+2022-04-15 11:50:20,693 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,693 [INFO] PluginManager:213 - loadIPPluginJar : add ipddr
+2022-04-15 11:50:20,757 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,757 [INFO] PluginManager:213 - loadIPPluginJar : add linkedlist
+2022-04-15 11:50:20,787 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,787 [INFO] PluginManager:213 - loadIPPluginJar : add lorawan
+2022-04-15 11:50:20,815 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,816 [INFO] PluginManager:213 - loadIPPluginJar : add ltdc
+2022-04-15 11:50:20,826 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,826 [INFO] PluginManager:213 - loadIPPluginJar : add mdma
+2022-04-15 11:50:20,836 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,836 [INFO] PluginManager:213 - loadIPPluginJar : add nvic
+2022-04-15 11:50:20,866 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,866 [INFO] PluginManager:213 - loadIPPluginJar : add opamp
+2022-04-15 11:50:20,911 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,911 [INFO] PluginManager:213 - loadIPPluginJar : add openamp
+2022-04-15 11:50:20,943 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,944 [INFO] PluginManager:213 - loadIPPluginJar : add pdm2pcm
+2022-04-15 11:50:20,957 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,959 [INFO] PluginManager:213 - loadIPPluginJar : add plateformsettings
+2022-04-15 11:50:20,980 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,980 [INFO] PluginManager:213 - loadIPPluginJar : add quadspi
+2022-04-15 11:50:20,990 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:20,990 [INFO] PluginManager:213 - loadIPPluginJar : add resmgrutility
+2022-04-15 11:50:21,030 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,030 [INFO] PluginManager:213 - loadIPPluginJar : add sai
+2022-04-15 11:50:21,064 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,064 [INFO] PluginManager:213 - loadIPPluginJar : add spi
+2022-04-15 11:50:21,103 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,103 [INFO] PluginManager:213 - loadIPPluginJar : add stm32_wpan
+2022-04-15 11:50:21,123 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,124 [INFO] PluginManager:213 - loadIPPluginJar : add tim
+2022-04-15 11:50:21,168 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,168 [INFO] PluginManager:213 - loadIPPluginJar : add touchsensing
+2022-04-15 11:50:21,189 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,190 [INFO] PluginManager:213 - loadIPPluginJar : add tracer_emb
+2022-04-15 11:50:21,213 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,213 [INFO] PluginManager:213 - loadIPPluginJar : add ts
+2022-04-15 11:50:21,236 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,236 [INFO] PluginManager:213 - loadIPPluginJar : add tsc
+2022-04-15 11:50:21,256 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,256 [INFO] PluginManager:213 - loadIPPluginJar : add ucpd
+2022-04-15 11:50:21,291 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,291 [INFO] PluginManager:213 - loadIPPluginJar : add usart
+2022-04-15 11:50:21,320 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:50:21,320 [INFO] PluginManager:213 - loadIPPluginJar : add usbx
+2022-04-15 11:50:21,686 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-04-15 11:50:21,776 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-04-15 11:50:21,780 [INFO] DbMcusAds:47 - JSON generation date=Tue May 11 22:32:49 ICT 2021 (1620747169502)
+2022-04-15 11:50:21,780 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-04-15 11:50:21,850 [WARN] DetailPanel:314 - Failed to get advertising image, set to default
+2022-04-15 11:50:21,923 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-04-15 11:50:21,925 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-04-15 11:50:21,925 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-04-15 11:50:21,925 [WARN] DetailPanel:314 - Failed to get advertising image, set to default
+2022-04-15 11:50:21,926 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-04-15 11:50:21,975 [ERROR] Updater:1075 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2022-04-15 11:50:21,984 [INFO] Updater:1012 - Updater Version found : 6.3.0
+2022-04-15 11:50:22,005 [INFO] ApplicationProperties:181 - Using Application install path: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111
+2022-04-15 11:50:22,041 [INFO] MainUpdater:489 - Copy updater definitions from MX database
+2022-04-15 11:50:22,086 [INFO] MainUpdater:522 - Copy flag file definitions from MX database
+2022-04-15 11:50:22,096 [INFO] MainUpdater:538 - Copy thirdparty index definitions from MX database
+2022-04-15 11:50:22,108 [INFO] MainUpdater:557 - Copy default thirdparty db definitions from MX database
+2022-04-15 11:50:22,627 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [2/15]
+2022-04-15 11:50:24,143 [WARN] ServerAccessManage:1053 - Warning during Server Connexion :  timeout connect timed out
+2022-04-15 11:50:25,642 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-04-15 11:50:25,642 [ERROR] IntegrityCheckThread:124 - Cannot retrieve database content from updater: error 21
+2022-04-15 11:50:25,643 [INFO] ThirdParty:915 - Integrity check success = false
+2022-04-15 11:50:25,643 [INFO] IntegrityCheckThread:94 - exiting critical section [integrity check]
+2022-04-15 11:50:25,643 [INFO] IntegrityCheckThread:97 - End integrity checks thread
+2022-04-15 11:50:26,158 [WARN] ServerAccessManage:1053 - Warning during Server Connexion :  timeout connect timed out
+2022-04-15 11:50:27,231 [INFO] MainUpdater:2671 - connection check result : 10
+2022-04-15 11:50:27,232 [INFO] MainUpdater:3359 - Updater definition file requires update
+2022-04-15 11:50:27,234 [INFO] MainUpdater:265 - Updater Check For Update Now.
+2022-04-15 11:50:27,234 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2022-04-15 11:50:38,177 [INFO] MainUpdater:2671 - connection check result : 10
+2022-04-15 11:50:49,536 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to false
+2022-04-15 11:50:49,627 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-04-15 11:50:49,635 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-04-15 11:50:49,635 [INFO] MultiScanPanel:201 - Proxy status is invalid
+2022-04-15 11:50:49,638 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2022-04-15 11:50:49,639 [INFO] DbMcusXml:100 - Load MCU database from E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/mcu/families.xml
+2022-04-15 11:50:50,299 [INFO] DbMcusJson:93 - JSON generation date=Mon Jun 07 15:53:21 ICT 2021 (1623056001)
+2022-04-15 11:50:50,756 [INFO] DbMcus:175 - Found 1951 MCUs (1903 are supported by CubeMX, 1903 are visible in CubeMX)
+2022-04-15 11:50:50,757 [INFO] ApiDb:242 - User favorites file not found: C:\Users\TrungNT/.stm32cubeide/favorites.mcus.txt
+2022-04-15 11:50:50,757 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2022-04-15 11:50:51,174 [WARN] DetailPanel:314 - Failed to get advertising image, set to default
+2022-04-15 11:50:51,500 [INFO] DbBoardsPdsc:90 - Found 25 items
+2022-04-15 11:50:51,509 [INFO] DbBoardsPdsc:90 - Found 9 items
+2022-04-15 11:50:51,519 [INFO] DbBoardsPdsc:90 - Found 33 items
+2022-04-15 11:50:51,525 [INFO] DbBoardsPdsc:90 - Found 1 items
+2022-04-15 11:50:51,536 [INFO] DbBoardsPdsc:90 - Found 48 items
+2022-04-15 11:50:51,547 [INFO] DbBoardsPdsc:90 - Found 43 items
+2022-04-15 11:50:51,554 [INFO] DbBoardsPdsc:90 - Found 2 items
+2022-04-15 11:50:51,561 [INFO] DbBoardsPdsc:90 - Found 5 items
+2022-04-15 11:50:51,564 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-04-15 11:50:51,565 [WARN] DbBoardsPdsc:254 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2022-04-15 11:50:51,566 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-04-15 11:50:51,566 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-04-15 11:50:51,566 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-04-15 11:50:51,566 [WARN] DbBoardsPdsc:254 - Board STM32U575I-EV: unknown feature type=joystick, name=, username=4-direction joystick with selection button, n=1
+2022-04-15 11:50:51,576 [INFO] DbBoardsJson:86 - JSON generation date=Tue Jun 01 12:52:40 ICT 2021 (1622526760)
+2022-04-15 11:50:51,580 [INFO] DbBoards:117 - Found 166 boards (163 are supported by CubeMX)
+2022-04-15 11:50:51,587 [INFO] DbBoardsDocs:143 - JSON generation date=Tue Jun 01 12:52:40 ICT 2021 (1622526760)
+2022-04-15 11:50:51,599 [INFO] DbBoardsDocs:79 - Found 193 boards documents
+2022-04-15 11:50:51,600 [WARN] DbBoards:127 - board B-L462E-CELL1 has no document id list !
+2022-04-15 11:50:51,600 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2022-04-15 11:50:51,600 [WARN] DbBoards:127 - board B-U585I-IOT02A has no document id list !
+2022-04-15 11:50:51,600 [WARN] DbBoards:127 - board NUCLEO-G0B1RE has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board NUCLEO-L4A6ZG has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board NUCLEO-U575ZI-Q has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board NUCLEO-WB15CC has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board NUCLEO-WB55RG has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board NUCLEO-WL55JC2 has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2022-04-15 11:50:51,601 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-04-15 11:50:51,602 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2022-04-15 11:50:51,602 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2022-04-15 11:50:51,602 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2022-04-15 11:50:51,602 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2022-04-15 11:50:51,602 [WARN] DbBoards:127 - board STM32G0C1E-EV has no document id list !
+2022-04-15 11:50:51,602 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2022-04-15 11:50:51,603 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2022-04-15 11:50:51,603 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2022-04-15 11:50:51,603 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2022-04-15 11:50:51,603 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2022-04-15 11:50:51,603 [WARN] DbBoards:127 - board STM32MP157A-DK1 has no document id list !
+2022-04-15 11:50:51,604 [WARN] DbBoards:127 - board STM32MP157D-DK1 has no document id list !
+2022-04-15 11:50:51,604 [WARN] DbBoards:127 - board STM32MP157D-EV1 has no document id list !
+2022-04-15 11:50:51,604 [WARN] DbBoards:127 - board STM32MP157F-DK2 has no document id list !
+2022-04-15 11:50:51,604 [WARN] DbBoards:127 - board STM32MP157F-EV1 has no document id list !
+2022-04-15 11:50:51,604 [WARN] DbBoards:127 - board STM32U575I-EV has no document id list !
+2022-04-15 11:50:51,604 [WARN] DbBoards:127 - board STM32WB5MM-DK has no document id list !
+2022-04-15 11:50:54,342 [INFO] ApiDb:242 - User favorites file not found: C:\Users\TrungNT/.stm32cubeide/favorites.boards.txt
+2022-04-15 11:50:54,342 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2022-04-15 11:51:06,941 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-04-15 11:51:06,942 [INFO] MultiScanPanel:201 - Proxy status is invalid
+2022-04-15 11:51:07,001 [WARN] DetailPanel:314 - Failed to get advertising image, set to default
+2022-04-15 11:51:12,518 [WARN] ServerAccessManage:1053 - Warning during Server Connexion :  timeout Read timed out
+2022-04-15 11:51:33,574 [ERROR] ServerAccessManage:1057 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-04-15 11:51:33,576 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-04-15 11:51:33,580 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2022-04-15 11:51:33,583 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+2022-04-15 11:51:33,586 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+2022-04-15 11:51:33,589 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+2022-04-15 11:51:33,592 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+2022-04-15 11:51:33,594 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-04-15 11:51:33,596 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.Socket.connect(Socket.java:609)
+2022-04-15 11:51:33,597 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:289)
+2022-04-15 11:51:33,599 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+2022-04-15 11:51:33,600 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+2022-04-15 11:51:33,602 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+2022-04-15 11:51:33,603 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+2022-04-15 11:51:33,604 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+2022-04-15 11:51:33,606 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+2022-04-15 11:51:33,608 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+2022-04-15 11:51:33,608 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+2022-04-15 11:51:33,610 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+2022-04-15 11:51:33,612 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+2022-04-15 11:51:33,613 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+2022-04-15 11:51:33,614 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+2022-04-15 11:51:33,615 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+2022-04-15 11:51:33,617 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:918)
+2022-04-15 11:51:33,618 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.readHttpFile(ServerAccessManage.java:312)
+2022-04-15 11:51:33,620 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.downloadUpdaterFile(LoadServerUpdatesThread.java:569)
+2022-04-15 11:51:33,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performDescriptionUpdate(LoadServerUpdatesThread.java:359)
+2022-04-15 11:51:33,624 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:382)
+2022-04-15 11:51:33,625 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:280)
+2022-04-15 11:51:33,626 [ERROR] ServerAccessManage:531 - Problem during Server Connexion :  : updaters.zip.
+2022-04-15 11:51:34,466 [INFO] ServerAccessManage:362 - Download File updaters.zip
+2022-04-15 11:51:35,357 [INFO] FileExtend:235 - Unzip File : updaters.zip
+2022-04-15 11:51:35,357 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-04-15 11:51:56,760 [ERROR] ServerAccessManage:1057 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-04-15 11:51:56,763 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-04-15 11:51:56,765 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2022-04-15 11:51:56,768 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+2022-04-15 11:51:56,770 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+2022-04-15 11:51:56,773 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+2022-04-15 11:51:56,776 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+2022-04-15 11:51:56,778 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-04-15 11:51:56,779 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.Socket.connect(Socket.java:609)
+2022-04-15 11:51:56,781 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:289)
+2022-04-15 11:51:56,783 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+2022-04-15 11:51:56,785 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+2022-04-15 11:51:56,787 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+2022-04-15 11:51:56,789 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+2022-04-15 11:51:56,790 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+2022-04-15 11:51:56,792 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+2022-04-15 11:51:56,793 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+2022-04-15 11:51:56,795 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+2022-04-15 11:51:56,796 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+2022-04-15 11:51:56,797 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+2022-04-15 11:51:56,798 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+2022-04-15 11:51:56,799 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+2022-04-15 11:51:56,800 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+2022-04-15 11:51:56,801 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:918)
+2022-04-15 11:51:56,801 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.readHttpFile(ServerAccessManage.java:304)
+2022-04-15 11:51:56,802 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.updateThirdPartiesControlFile(LoadServerUpdatesThread.java:825)
+2022-04-15 11:51:56,803 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:389)
+2022-04-15 11:51:56,804 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:280)
+2022-04-15 11:51:56,804 [ERROR] ServerAccessManage:531 - Problem during Server Connexion :  : PacksControlFlags.xml.
+2022-04-15 11:52:11,535 [INFO] DbMcusDocs:143 - JSON generation date=Mon Jun 07 15:53:21 ICT 2021 (1623056001)
+2022-04-15 11:52:11,725 [INFO] DbMcusDocs:79 - Found 669 MCUs documents
+2022-04-15 11:52:17,870 [ERROR] ServerAccessManage:1057 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-04-15 11:52:17,873 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-04-15 11:52:17,875 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2022-04-15 11:52:17,878 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+2022-04-15 11:52:17,880 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+2022-04-15 11:52:17,883 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+2022-04-15 11:52:17,886 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+2022-04-15 11:52:17,888 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-04-15 11:52:17,890 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.Socket.connect(Socket.java:609)
+2022-04-15 11:52:17,892 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:289)
+2022-04-15 11:52:17,894 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+2022-04-15 11:52:17,895 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+2022-04-15 11:52:17,897 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+2022-04-15 11:52:17,899 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+2022-04-15 11:52:17,900 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+2022-04-15 11:52:17,902 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+2022-04-15 11:52:17,904 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+2022-04-15 11:52:17,905 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+2022-04-15 11:52:17,906 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+2022-04-15 11:52:17,907 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+2022-04-15 11:52:17,908 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+2022-04-15 11:52:17,909 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+2022-04-15 11:52:17,910 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+2022-04-15 11:52:17,911 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:918)
+2022-04-15 11:52:17,912 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.readHttpFile(ServerAccessManage.java:304)
+2022-04-15 11:52:17,912 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.updateThirdPartyPidxFile(LoadServerUpdatesThread.java:942)
+2022-04-15 11:52:17,914 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdPartyUpdaterIndexUrls(LoadServerUpdatesThread.java:1008)
+2022-04-15 11:52:17,915 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.processThirdParties(LoadServerUpdatesThread.java:779)
+2022-04-15 11:52:17,916 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.performFullUpdate(LoadServerUpdatesThread.java:395)
+2022-04-15 11:52:17,916 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadServerUpdatesThread.run(LoadServerUpdatesThread.java:280)
+2022-04-15 11:52:17,916 [ERROR] ServerAccessManage:531 - Problem during Server Connexion :  : cubemx.pidx.
+2022-04-15 11:52:17,962 [INFO] LoadServerUpdatesThread:339 - End of LoadServerUpdate Thread
+2022-04-15 11:52:18,109 [INFO] CheckServerUpdateThread:112 - End of CheckServer Thread
+2022-04-15 11:52:54,698 [INFO] McuResultTable:741 - Mark MCU STM32F401VBTx as favorite
+2022-04-15 11:53:05,725 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {s}->https://sw-center.st.com:443: Network is unreachable: connect
+2022-04-15 11:53:05,728 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2022-04-15 11:53:54,716 [INFO] MainUpdater:2671 - connection check result : 10
+2022-04-15 11:53:54,716 [INFO] MainUpdater:2671 - connection check result : 10
+2022-04-15 11:53:54,785 [INFO] MicroXplorer:448 - Change Database Path : 
+2022-04-15 11:53:54,785 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2022-04-15 11:53:54,786 [WARN] ThirdParty:813 - waiting for thirdparty lock release [close project]
+2022-04-15 11:53:54,786 [INFO] ThirdParty:815 - entering critical section [close project]
+2022-04-15 11:53:54,788 [INFO] ThirdParty:825 - exiting critical section [close project]
+2022-04-15 11:53:54,793 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-04-15 11:53:54,794 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 701685840 Bytes (1073741824)
+2022-04-15 11:53:54,795 [INFO] MicroXplorer:448 - Change Database Path : 
+2022-04-15 11:53:54,796 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2022-04-15 11:53:54,796 [INFO] OpenFileManager:313 - Change cursor
+2022-04-15 11:53:54,809 [WARN] IntegrityCheckThread:78 - waiting for thirdparty lock release [integrity check]
+2022-04-15 11:53:54,809 [INFO] IntegrityCheckThread:80 - entering critical section [integrity check]
+2022-04-15 11:53:54,840 [INFO] ThirdParty:915 - Integrity check success = true
+2022-04-15 11:53:54,840 [INFO] IntegrityCheckThread:94 - exiting critical section [integrity check]
+2022-04-15 11:53:54,840 [INFO] IntegrityCheckThread:97 - End integrity checks thread
+2022-04-15 11:53:56,339 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2022-04-15 11:53:56,628 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2022-04-15 11:53:56,628 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2022-04-15 11:53:56,629 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2022-04-15 11:53:56,672 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-04-15 11:53:56,672 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-04-15 11:53:56,672 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-04-15 11:53:56,672 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-04-15 11:53:56,672 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,674 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC HS::1.0:USB_DEVICE_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,676 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,677 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:179 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,679 [WARN] ModelIntegratedComponent:185 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP HS::1.0:USB_HOST_1_0_RESTRICTED_HS
+2022-04-15 11:53:56,791 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 731764496 Bytes (1073741824)
+2022-04-15 11:53:56,799 [WARN] ThirdParty:779 - waiting for thirdparty lock release [change project]
+2022-04-15 11:53:56,799 [INFO] ThirdParty:781 - entering critical section [change project]
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-04-15 11:53:56,799 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-04-15 11:53:56,800 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-04-15 11:53:56,800 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-04-15 11:53:56,800 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-04-15 11:53:56,800 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-04-15 11:53:56,800 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-04-15 11:53:56,800 [INFO] ThirdParty:787 - exiting critical section [change project]
+2022-04-15 11:53:57,038 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-04-15 11:53:57,040 [INFO] PinOutPanel:1463 - setPackage(STM32F401VBTx,LQFP100)
+2022-04-15 11:53:57,428 [INFO] UtilMem:74 - Before build in PCC Used Memory: 586013808 Bytes (1073741824)
+2022-04-15 11:53:57,932 [INFO] UtilMem:74 - After build in PCC Used Memory: 668849184 Bytes (1073741824)
+2022-04-15 11:53:57,949 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,949 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,949 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,949 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,949 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,949 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,950 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,951 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,952 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,953 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,953 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,953 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,954 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,954 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,954 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,954 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,955 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,955 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,955 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,955 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,956 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,956 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,956 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:57,957 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-04-15 11:53:58,006 [INFO] ApiDbMcu:468 - Load IP Config File for PDM2PCM
+2022-04-15 11:53:58,103 [INFO] OpenFileManager:333 - Restore cursor
+2022-04-15 11:53:58,366 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 765426896 Bytes (1073741824)
+2022-04-15 11:53:59,266 [INFO] ServerAccessManage:362 - Download File stm32cube_fw_f4_v1260.zip
+2022-04-15 11:54:48,038 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {s}->https://sw-center.st.com:443: Network is unreachable: connect
+2022-04-15 11:54:48,038 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2022-04-15 11:55:30,115 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {s}->https://sw-center.st.com:443: Network is unreachable: connect
+2022-04-15 11:55:30,115 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2022-04-15 11:56:12,271 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {s}->https://sw-center.st.com:443: Network is unreachable: connect
+2022-04-15 11:56:12,273 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2022-04-15 11:59:55,821 [ERROR] FileExtend:450 - File entry not found
+2022-04-15 11:59:55,822 [INFO] FileExtend:235 - Unzip File : stm32cube_fw_f4_v1260.zip
+2022-04-15 11:59:55,822 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-04-15 12:00:33,168 [INFO] ServerAccessManage:362 - Download File stm32cube_fw_f4_v1262.zip
+2022-04-15 12:03:12,130 [INFO] FileExtend:235 - Unzip File : stm32cube_fw_f4_v1262.zip
+2022-04-15 12:03:12,131 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-04-15 12:03:39,372 [INFO] LoadServerPackagesThread:180 - End of LoadServerPackages Thread
+2022-04-15 12:03:39,505 [INFO] CheckServerUpdateThread:112 - End of CheckServer Thread
+2022-04-15 12:03:39,511 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 551216240 Bytes (1073741824)
+2022-04-15 12:03:39,778 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-04-15 12:03:39,778 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-04-15 12:03:39,778 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-04-15 12:03:39,779 [INFO] CodeGenerator:663 - code generatio: config db path: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-04-15 12:03:40,005 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\MXTmpFiles\license.tmp_save
+2022-04-15 12:03:40,273 [INFO] CodeEngine:257 - Generated code: C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\MXTmpFiles\license.tmp
+2022-04-15 12:03:40,380 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Src\stm32f4xx_it.c_save
+2022-04-15 12:03:40,499 [INFO] CodeEngine:257 - Generated code: C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Src\stm32f4xx_it.c
+2022-04-15 12:03:40,508 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Inc\stm32f4xx_it.h_save
+2022-04-15 12:03:40,573 [INFO] CodeEngine:257 - Generated code: C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Inc\stm32f4xx_it.h
+2022-04-15 12:03:40,589 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Src\stm32f4xx_hal_msp.c_save
+2022-04-15 12:03:40,680 [INFO] CodeEngine:257 - Generated code: C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Src\stm32f4xx_hal_msp.c
+2022-04-15 12:03:40,688 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\MXTmpFiles\system.tmp_save
+2022-04-15 12:03:40,738 [INFO] CodeEngine:257 - Generated code: C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\MXTmpFiles\system.tmp
+2022-04-15 12:03:40,754 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Inc\stm32f4xx_hal_conf.h_save
+2022-04-15 12:03:40,829 [INFO] CodeEngine:257 - Generated code: C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Inc\stm32f4xx_hal_conf.h
+2022-04-15 12:03:40,885 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Inc\main.h_save
+2022-04-15 12:03:40,952 [INFO] CodeEngine:257 - Generated code: C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Inc\main.h
+2022-04-15 12:03:40,961 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Src\main.c_save
+2022-04-15 12:03:41,049 [INFO] CodeEngine:257 - Generated code: C:\Users\TrungNT\STM32CubeIDE\Lumi\Lumi_communicate_PCB\Core\Src\main.c
+2022-04-15 12:03:41,803 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 172mS.
+2022-04-15 12:03:41,809 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-04-15 12:03:42,207 [INFO] ConfigFileManager:1271 - The Die is : DIE423
+2022-04-15 12:03:42,228 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2022-04-15 12:03:42,267 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2022-04-15 12:03:42,281 [INFO] ApiDbMcu:468 - Load IP Config File for LIBJPEG
+2022-04-15 12:03:42,328 [INFO] ApiDbMcu:468 - Load IP Config File for MBEDTLS
+2022-04-15 12:03:42,394 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2022-04-15 12:03:42,413 [INFO] ApiDbMcu:468 - Load IP Config File for USB_HOST
+2022-04-15 12:03:48,274 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 6465mS.
+2022-04-15 12:03:48,275 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-04-15 12:03:48,276 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-04-15 12:03:48,621 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-04-15 12:03:48,626 [INFO] ApiDb:276 - Save user favorites file C:\Users\TrungNT/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2022-04-15 12:03:48,627 [INFO] ApiDb:280 - User favorites MCUs=[STM32F401VBTx]
+2022-04-15 12:03:48,628 [INFO] ApiDb:276 - Save user favorites file C:\Users\TrungNT/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-04-15 12:03:48,629 [INFO] ApiDb:280 - User favorites Boards=[]
+2022-04-15 12:06:00,299 [INFO] MainUpdater:2671 - connection check result : 10
+2022-04-15 12:06:00,299 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-04-15 12:06:00,447 [INFO] ServerAccessManage:362 - Download File mcusAds.json._tmp_
+2022-04-15 12:06:00,611 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-04-15 12:06:01,742 [INFO] ServerAccessManage:362 - Download File mcusDocs.json._tmp_
+2022-04-15 12:06:02,651 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-04-15 12:06:02,874 [INFO] ServerAccessManage:362 - Download File mcusFeaturesAndDescription.json._tmp_
+2022-04-15 12:06:05,184 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-04-15 12:06:05,452 [INFO] ServerAccessManage:362 - Download File boardsDocs.json._tmp_
+2022-04-15 12:06:05,596 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-04-15 12:06:05,862 [INFO] ServerAccessManage:362 - Download File boards.json._tmp_
+2022-04-15 12:06:06,224 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-04-15 12:06:27,300 [ERROR] ServerAccessManage:1057 - Problem during Server Connexion :  IO error Connection timed out: connect
+2022-04-15 12:06:27,302 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] java.net.ConnectException: Connection timed out: connect
+2022-04-15 12:06:27,304 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+2022-04-15 12:06:27,306 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+2022-04-15 12:06:27,308 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+2022-04-15 12:06:27,311 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+2022-04-15 12:06:27,312 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+2022-04-15 12:06:27,314 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2022-04-15 12:06:27,315 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.Socket.connect(Socket.java:609)
+2022-04-15 12:06:27,317 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:289)
+2022-04-15 12:06:27,318 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+2022-04-15 12:06:27,319 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+2022-04-15 12:06:27,320 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+2022-04-15 12:06:27,322 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:265)
+2022-04-15 12:06:27,323 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:372)
+2022-04-15 12:06:27,326 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:203)
+2022-04-15 12:06:27,327 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+2022-04-15 12:06:27,329 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+2022-04-15 12:06:27,331 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:189)
+2022-04-15 12:06:27,332 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1592)
+2022-04-15 12:06:27,333 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+2022-04-15 12:06:27,334 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+2022-04-15 12:06:27,335 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:334)
+2022-04-15 12:06:27,336 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.openHttpConnexion(ServerAccessManage.java:918)
+2022-04-15 12:06:27,337 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.ServerAccessManage.readHttpFile(ServerAccessManage.java:304)
+2022-04-15 12:06:27,338 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadUrlFilesThread.loadAllFiles(LoadUrlFilesThread.java:500)
+2022-04-15 12:06:27,339 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadUrlFilesThread.downloadUrlFiles(LoadUrlFilesThread.java:205)
+2022-04-15 12:06:27,340 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.updater.engine.LoadUrlFilesThread.run(LoadUrlFilesThread.java:137)
+2022-04-15 12:06:27,340 [ERROR] ServerAccessManage:531 - Problem during Server Connexion :  : cube-finder-db.zip.
+2022-04-15 12:06:30,747 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-04-15 12:06:31,484 [INFO] DbMcusAds:47 - JSON generation date=Thu Sep 30 13:56:37 ICT 2021 (1632984997303)
+2022-04-15 12:06:31,501 [INFO] DbMcusDocs:143 - JSON generation date=Tue Nov 16 23:17:54 ICT 2021 (1637079474)
+2022-04-15 12:06:31,761 [INFO] DbMcusDocs:79 - Found 668 MCUs documents
+2022-04-15 12:06:31,762 [INFO] ApiDb:276 - Save user favorites file C:\Users\TrungNT/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2022-04-15 12:06:31,763 [INFO] ApiDb:280 - User favorites MCUs=[STM32F401VBTx]
+2022-04-15 12:06:31,763 [INFO] DbMcusXml:100 - Load MCU database from E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/mcu/families.xml
+2022-04-15 12:06:32,214 [INFO] DbMcusJson:93 - JSON generation date=Tue Nov 16 23:17:54 ICT 2021 (1637079474)
+2022-04-15 12:06:32,633 [INFO] DbMcus:175 - Found 1951 MCUs (1903 are supported by CubeMX, 1914 are visible in CubeMX)
+2022-04-15 12:06:32,635 [INFO] ApiDb:251 - Load user favorites file C:\Users\TrungNT/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2022-04-15 12:06:32,635 [INFO] ApiDb:255 - User favorites MCUs=[STM32F401VBTx]
+2022-04-15 12:06:32,635 [INFO] DbMcus:187 - Set 1 / 1 favorites MCUs
+2022-04-15 12:06:32,636 [INFO] DbBoardsDocs:143 - JSON generation date=Tue Nov 16 23:17:54 ICT 2021 (1637079474)
+2022-04-15 12:06:32,639 [INFO] DbBoardsDocs:79 - Found 193 boards documents
+2022-04-15 12:06:32,639 [INFO] ApiDb:276 - Save user favorites file C:\Users\TrungNT/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-04-15 12:06:32,639 [INFO] ApiDb:280 - User favorites Boards=[]
+2022-04-15 12:06:32,643 [INFO] DbBoardsPdsc:90 - Found 25 items
+2022-04-15 12:06:32,645 [INFO] DbBoardsPdsc:90 - Found 9 items
+2022-04-15 12:06:32,647 [INFO] DbBoardsPdsc:90 - Found 33 items
+2022-04-15 12:06:32,648 [INFO] DbBoardsPdsc:90 - Found 1 items
+2022-04-15 12:06:32,653 [INFO] DbBoardsPdsc:90 - Found 48 items
+2022-04-15 12:06:32,657 [INFO] DbBoardsPdsc:90 - Found 43 items
+2022-04-15 12:06:32,659 [INFO] DbBoardsPdsc:90 - Found 2 items
+2022-04-15 12:06:32,660 [INFO] DbBoardsPdsc:90 - Found 5 items
+2022-04-15 12:06:32,662 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-04-15 12:06:32,662 [WARN] DbBoardsPdsc:254 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2022-04-15 12:06:32,663 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-04-15 12:06:32,663 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-04-15 12:06:32,663 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-04-15 12:06:32,664 [WARN] DbBoardsPdsc:254 - Board STM32U575I-EV: unknown feature type=joystick, name=, username=4-direction joystick with selection button, n=1
+2022-04-15 12:06:32,704 [INFO] DbBoardsJson:86 - JSON generation date=Tue Nov 16 23:17:54 ICT 2021 (1637079474)
+2022-04-15 12:06:32,711 [INFO] DbBoards:117 - Found 167 boards (163 are supported by CubeMX)
+2022-04-15 12:06:32,711 [WARN] DbBoards:149 - board B-L462E-CELL1 / document id not found: 16922
+2022-04-15 12:06:32,711 [WARN] DbBoards:149 - board B-L462E-CELL1 / document id not found: 18026
+2022-04-15 12:06:32,711 [WARN] DbBoards:154 - board B-L462E-CELL1 has no document !
+2022-04-15 12:06:32,712 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2022-04-15 12:06:32,712 [WARN] DbBoards:149 - board B-U585I-IOT02A / document id not found: 16892
+2022-04-15 12:06:32,712 [WARN] DbBoards:149 - board B-U585I-IOT02A / document id not found: 18389
+2022-04-15 12:06:32,712 [WARN] DbBoards:154 - board B-U585I-IOT02A has no document !
+2022-04-15 12:06:32,712 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2022-04-15 12:06:32,712 [WARN] DbBoards:149 - board NUCLEO-U575ZI-Q / document id not found: 18138
+2022-04-15 12:06:32,712 [WARN] DbBoards:149 - board NUCLEO-WB15CC / document id not found: 16890
+2022-04-15 12:06:32,713 [WARN] DbBoards:149 - board NUCLEO-WB15CC / document id not found: 18058
+2022-04-15 12:06:32,713 [WARN] DbBoards:149 - board NUCLEO-WB55RG / document id not found: 16890
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board NUCLEO-WL55JC2 has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2022-04-15 12:06:32,713 [WARN] DbBoards:127 - board STM32439I-EVAL2 has no document id list !
+2022-04-15 12:06:32,714 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2022-04-15 12:06:32,714 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2022-04-15 12:06:32,714 [WARN] DbBoards:149 - board STM32G0C1E-EV / document id not found: 16888
+2022-04-15 12:06:32,714 [WARN] DbBoards:149 - board STM32G0C1E-EV / document id not found: 18035
+2022-04-15 12:06:32,714 [WARN] DbBoards:154 - board STM32G0C1E-EV has no document !
+2022-04-15 12:06:32,714 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2022-04-15 12:06:32,714 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2022-04-15 12:06:32,714 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2022-04-15 12:06:32,714 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2022-04-15 12:06:32,715 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157D-DK1 / document id not found: 16755
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157D-DK1 / document id not found: 18008
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157D-EV1 / document id not found: 16637
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157D-EV1 / document id not found: 18137
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157F-DK2 / document id not found: 16755
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157F-DK2 / document id not found: 18008
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157F-DK2 / document id not found: 18127
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157F-EV1 / document id not found: 16637
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32MP157F-EV1 / document id not found: 18137
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32U575I-EV / document id not found: 18132
+2022-04-15 12:06:32,715 [WARN] DbBoards:149 - board STM32U575I-EV / document id not found: 18391
+2022-04-15 12:06:32,715 [WARN] DbBoards:154 - board STM32U575I-EV has no document !
+2022-04-15 12:06:32,716 [WARN] DbBoards:149 - board STM32WB5MM-DK / document id not found: 16891
+2022-04-15 12:06:32,716 [WARN] DbBoards:149 - board STM32WB5MM-DK / document id not found: 18042
+2022-04-15 12:06:32,716 [WARN] DbBoards:154 - board STM32WB5MM-DK has no document !
+2022-04-15 12:06:32,825 [ERROR] DbBoards:189 - Image file not found for board B-U585I-IOT02A: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/boards/B-U585I-IOT02A_small.jpg
+2022-04-15 12:06:32,918 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-F413ZH: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/boards/nucleo-f413zh_small.jpg
+2022-04-15 12:06:33,077 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-L552ZE-Q: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/boards/nucleo_l552ze_q_small.jpg
+2022-04-15 12:06:33,077 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-U575ZI-Q: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/boards/nucleo-u575zi-q_small.jpg
+2022-04-15 12:06:33,077 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-WB15CC: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/boards/nucleo-wb15cc_small.jpg
+2022-04-15 12:06:33,077 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-WB55RG: E:\stm32\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\/plugins/mcufinder/images/boards/nucleo-wb55rg_small.jpg
+2022-04-15 12:06:33,859 [INFO] ApiDb:251 - Load user favorites file C:\Users\TrungNT/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-04-15 12:06:33,859 [INFO] ApiDb:255 - User favorites Boards=[]
+2022-04-15 12:06:33,859 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2022-04-15 12:06:33,860 [ERROR] TargetSelectorAdapter:232 - Unable to refresh data
+2022-04-15 12:06:33,912 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to false
+2022-04-15 12:06:33,919 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\TrungNT\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-04-15 12:06:33,921 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-04-15 12:06:33,921 [INFO] MultiScanPanel:201 - Proxy status is invalid
+2022-04-15 12:06:33,922 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2022-04-15 12:06:34,218 [WARN] DetailPanel:314 - Failed to get advertising image, set to default
+2022-04-15 12:07:05,545 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-04-15 12:07:05,546 [INFO] ApiDb:276 - Save user favorites file C:\Users\TrungNT/.stm32cubeide/favorites.mcus.txt: 1 item(s)
+2022-04-15 12:07:05,546 [INFO] ApiDb:280 - User favorites MCUs=[STM32F401VBTx]
+2022-04-15 20:19:37,282 [INFO] Activator:177 - 
+
+
+2022-04-15 20:19:37,284 [INFO] Activator:178 - !SESSION log4j initialized

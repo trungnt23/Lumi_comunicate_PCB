@@ -1,0 +1,4 @@
+testbutton.c:64:6:buttonStart	32	static
+testbutton.c:107:6:buttonTest	32	static
+testbutton.c:150:6:buttonRayIn	32	static
+testbutton.c:193:6:buttonRayOut	32	static
